@@ -13,4 +13,18 @@ function fibs(countTo) {
   return fibArr;
 }
 
+// function fibsRec(countTo) {
+//   if(countTo === 1) {
+//     return [0]
+//   }
+//   if(countTo === 2) {
+//     return[0,1];
+//   }
+//   let fibArr = [];
+//   [].concat(fibsRec(countTo - 1));
+//   return fibArr
+// }
+
 console.log(fibs(8));
+
+// console.log(fibsRec)
